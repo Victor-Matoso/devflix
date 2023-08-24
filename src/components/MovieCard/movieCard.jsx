@@ -4,7 +4,7 @@ import styles from "./movieCard.module.css";
 
 const MovieCard = ({ movies }) => {
   const movie = movies;
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
